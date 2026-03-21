@@ -137,6 +137,25 @@ close other editors in group: cmd alt t
 
 </details>
 
+---
+
+<br/>
+
+<details>
+   <summary>
+
+##### Remap hosts and modify headers with Mitmproxy
+
+   </summary>
+
+```bash
+mitmweb --map-remote "|from.host.com|to.host.com{:port}" \
+ --modify-headers /headerName1/value1 \
+ --modify-headers /headerName2/value2
+```
+
+</details>
+
 
 <!--- Template:
 
